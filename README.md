@@ -1,2 +1,6 @@
 # noahdarwinlee
-personal website
+## DialectDict 
+## Games
+## Portfolio
+## Socials
+## Resume
