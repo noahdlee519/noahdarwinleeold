@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <title>Noah Darwin Lee Title</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href='style.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+button:hover {
+color: #f2f3f4;
+}
+</style>
+<body>
+  <button id="mainbutton" onclick="location.href='index.html'">NOAH DARWIN LEE</button>
+  <br>
+<button id="projects" class="submenu" onclick="projectsClicked()">PROJECTS</button>
+<button id="contact" class="submenu" style='text-decoration:underline' onclick="contactClicked()">CONTACT</button>
+<button id="eightyseconds" class="submenu" onclick="eightySecondsClicked()">80 SECONDS</button>
+<style>
+  #contact {
+    color: #f2f3f4;
+  }
+</style>
+<br>
+<button><a href="#" class="fa fa-instagram" onclick="window.open('https://www.instagram.com/noahdarwinlee/')"></a></button>
+<button><a href="#" class="fa fa-facebook" onclick="window.open('https://www.facebook.com/BuoyoNYC/')"></a></button>
+<button><a href="#" class="fa fa-linkedin" onclick="window.open('https://www.linkedin.com/in/noah-lee-9a9401169/')"></a></button>
+<button><a href="mailto:noahdlee519@gmail.com" class="fa fa-google" ></a></button>
+</body>
+<script>
+  //projects
+  function projectsClicked() {
+    projects.style.color = '#f2f3f4';
+    contact.style.color = '#e3e3b0';
+    eightyseconds.style.color = '#e3e3b0';
+    window.location.href = 'projects.html';
+    var projectsClicked = true;
+  }
+  //contact
+  function contactClicked() {
+    projects.style.color =  '#e3e3b0';
+    contact.style.color = '#f2f3f4';
+    eightyseconds.style.color = '#e3e3b0';
+    window.location.href = 'contact.html';
+    var contactClicked = true;
+  }
+  //80seconds
+  function eightySecondsClicked() {
+    projects.style.color =  '#e3e3b0';
+    contact.style.color = '#e3e3b0';
+    eightyseconds.style.color = '#f2f3f4';
+    window.location.href = '80seconds.html';
+    var eightySecondsClicked = true;
+  }
+</script>
+</html>
