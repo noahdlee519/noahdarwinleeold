@@ -3,6 +3,7 @@ body {
   padding: 25px;
   font-family: Inter;
   font-size: 20px;
+  text-align: justify;
 }
 
 ul {
@@ -25,25 +26,30 @@ button {
   display: inline;
   text-indent: 2px;
 }
-.square {
-  background-color: #e3e3b0;
-}
 
-#eightysecsquare {
-  height: 550px;
-  width: 380.5px;
-  margin-left: 9px;
-  margin-top: 20px;
+.indexsubmenu {
+  font-size: 21px;
+  display: inline;
+  text-indent: 2px;
+  animation: fadeIn 0.8s;
+  -webkit-animation: fadeIn 0.8s;
 }
 
 .projectul {
   display: block;
   text-align: justify;
   font-weight: bold;
+  color: #e3e3b0;
   font-size: 42px;
   font-family: Inter;
-  margin-top: 60px;
-  margin-left: -32px;
+  margin-top: 61px;
+  margin-left: 1px;
+  animation: fadeIn 0.8s;
+  -webkit-animation: fadeIn 0.8s;
+}
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 .fa {
@@ -52,25 +58,18 @@ button {
   font-size: px;
   width: 50px;
   height: 15px;
-  margin-top: 15px;
-  margin-left: -6px;
+  margin-top: 21px;
+  margin-left: -48px;
+  padding: 47px;
   display: inline-block;
   text-align: center;
   text-decoration: none;
   color: #e3e3b0;
+  animation: fadeIn 0.8s;
+  -webkit-animation: fadeIn 0.8s;
 }
 .fa:hover {
   opacity: 0.7;
-}
-
-#tiktokgoeshere {
-  display: inline-block;
-  margin-top: 60px;
-  margin-left: 9px;
-  background-color: #f2f3f4;
-  padding: 400px 20px 10px 118px;
-  margin-bottom: 20px;
-  border-radius: 3%;
 }
 
 .iconfades {
@@ -78,4 +77,8 @@ button {
   margin-top: 2px;
   font-size: 12px;
   color: #e3e3b0;
+}
+
+#aroundtheworldin80s {
+  margin-top: 1000px;
 }
