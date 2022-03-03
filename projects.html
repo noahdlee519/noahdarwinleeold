@@ -24,9 +24,14 @@ color: #f2f3f4;
   }
 </style>
 <br>
-<ul class="projectul">80 Seconds</ul>
-<ul class="projectul">DialectDict</ul>
-<ul class="projectul">Design</ul>
+<script>
+$(document).ready(function(){
+$(".projectul").fadeIn(5000);
+});
+</script>
+<button class="projectul" onclick="eightySecondsClicked()">80 Seconds</button>
+<button class="projectul" onclick="window.open('https://dialectdict.com/')">DialectDict</button>
+<button class="projectul" onclick="window.open('https://www.instagram.com/noahmakestheart/')">Design</button>
 </body>
 <script>
   //projects
