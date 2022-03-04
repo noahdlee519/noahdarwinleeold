@@ -170,6 +170,7 @@ footer {
   height: 30px;
   width: 100%;
   padding-top: 12px;
+  padding-left: 42px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
