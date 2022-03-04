@@ -18,8 +18,7 @@ button {
 }
 .submenu {
   font-size: 21px;
-  display: inline;
-  text-indent: 2px;
+  display: inline-block;
   margin-right: 6px;
   text-align: center;
   position: relative;
@@ -27,8 +26,7 @@ button {
 
 .indexsubmenu {
   font-size: 21px;
-  display: inline;
-  text-indent: 2px;
+  display: inline-block;
   margin-right: 6px;
   position: relative;
   animation: fadeIn 0.8s;
@@ -44,7 +42,7 @@ button {
   font-family: Inter;
   margin-top: 21px;
   margin-bottom:43px;
-  margin-left: -10px;
+  margin-left: -9px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -53,7 +51,7 @@ button {
   100% {opacity:1;}
 }
 /*contact*/
-.fa {
+.fas {
   font-family: Inter;
   padding-bottom: 20px;
   font-size: px;
@@ -72,7 +70,7 @@ button {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
-.fa:hover {
+.fas:hover {
   opacity: 0.7;
 }
 
