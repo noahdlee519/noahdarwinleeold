@@ -73,7 +73,7 @@ button {
   -webkit-animation: fadeIn 0.8s;
 }
 .fa:hover {
-  opacity: 0.7;
+  color: #f2f3f4;
 }
 
 .iconfades {
