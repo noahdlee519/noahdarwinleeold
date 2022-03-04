@@ -46,7 +46,7 @@ button {
   font-family: Inter;
   margin-top: 21px;
   margin-bottom:43px;
-  margin-left: -2px;
+  margin-left: 0px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -93,6 +93,7 @@ button {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
   text-align: center;
+  margin: auto;
   border-radius: 9px;"
 }
 #aroundtheworldtext {
@@ -103,7 +104,8 @@ button {
   text-align: center;
   margin-top: 14px;
   display: inline-block;
-  max-width: 389px;
+  margin: auto;
+  max-width: 400px;
   font-weight: lighter;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
@@ -119,6 +121,7 @@ button {
   margin-top: -6px;
   display: inline-block;
   max-width: 383px;
+  margin: auto;
   font-weight: lighter;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
@@ -149,6 +152,7 @@ button {
   font-size: 21px;
   font-weight: normal;
   text-align: center;
+  margin: auto;
   color: #e3e3b0;
   margin-top: 12px;
 }
@@ -162,6 +166,7 @@ button {
   font-size: 16px;
   text-align: center;
   margin-top: -8px;
+  margin: auto;
   color: #e3e3b0;
   max-width: 600px;
   line-height: 1.7;
