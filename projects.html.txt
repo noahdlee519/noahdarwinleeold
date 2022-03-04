@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <title>Noah Darwin Lee Title</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href='style.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" />
+</head>
+<style>
+button:hover {
+color: #f2f3f4;
+}
+</style>
+<body>
+  <script src='script.js'></script>
+  <button id="mainbutton" onclick="location.href='index.html'">NOAH DARWIN LEE</button>
+  <br>
+<button id="projects" class="submenu" style='text-decoration:underline' onclick="projectsClicked()">PROJECTS</button>
+<button id="contact" class="submenu" onclick="contactClicked()">CONTACT</button>
+<button id="eightyseconds" class="submenu" onclick="eightySecondsClicked()">80S</button>
+<button id="blog" class="submenu" onclick="blogClicked()">BLOG</button>
+<style>
+  #projects {
+    color: #f2f3f4;
+  }
+</style>
+<br>
+<script>
+$(document).ready(function(){
+$(".projectul").fadeIn();
+});
+</script>
+<button class="projectul" onclick="eightySecondsClicked()">80 Seconds</button>
+<button class="projectul" onclick="window.open('https://dialectdict.com/')">DialectDict</button>
+<button class="projectul" onclick="window.open('https://www.instagram.com/noahmakestheart/')">Design</button>
+</body>
+<footer>2022 &nbspNoah Lee</footer>
+<script>
+  //projects
+  function projectsClicked() {
+    projects.style.color = '#f2f3f4';
+    contact.style.color = '#e3e3b0';
+    eightyseconds.style.color = '#e3e3b0';
+    blog.style.color = '#e3e3b0'
+    window.location.href = 'projects.html';
+    var projectsClicked = true;
+  }
+  //contact
+  function contactClicked() {
+    projects.style.color =  '#e3e3b0';
+    contact.style.color = '#f2f3f4';
+    eightyseconds.style.color = '#e3e3b0';
+    blog.style.color = '#e3e3b0'
+    window.location.href = 'contact.html';
+    var contactClicked = true;
+  }
+  //80seconds
+  function eightySecondsClicked() {
+    projects.style.color =  '#e3e3b0';
+    contact.style.color = '#e3e3b0';
+    eightyseconds.style.color = '#f2f3f4';
+    blog.style.color = '#e3e3b0'
+    window.location.href = '80seconds.html';
+    var eightySecondsClicked = true;
+  }
+  //blog
+  function blogClicked() {
+    projects.style.color =  '#e3e3b0';
+    contact.style.color = '#e3e3b0';
+    eightyseconds.style.color = '#e3e3b0';
+    blog.style.color = '#f2f3f4'
+    window.location.href = 'blog.html';
+    var blogClicked = true;
+  }
+</script>
+<script src="script.js"></script>
+</html>

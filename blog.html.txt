@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <title>Noah Darwin Lee Title</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href='style.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" />
+</head>
+<style>
+button:hover {
+color: #f2f3f4;
+}
+</style>
+<body>
+  <script src='script.js'></script>
+  <button id="mainbutton" onclick="location.href='index.html'">NOAH DARWIN LEE</button>
+  <br>
+<button id="projects" class="submenu" onclick="projectsClicked()">PROJECTS</button>
+<button id="contact" class="submenu" onclick="contactClicked()">CONTACT</button>
+<button id="eightyseconds" class="submenu" onclick="eightySecondsClicked()">80S</button>
+<button id="blog" class="submenu" style='text-decoration:underline' onclick="blogClicked()">BLOG</button>
+<style>
+  #blog {
+    color: #f2f3f4;
+  }
+</style>
+  <br>
+  <h1 id='posts' style='display: none'>POSTS</h1>
+  <ul class='posts' style='display: none'>NEW WEBSITE</ul>
+  <br>
+  <h2 class='title'>
+    NEW WEBSITE
+  </h2>
+  <br>
+  <p class='post'>this is my new website.this is my new website. I will be writing things here tthis is my new website. I will be writinthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tg things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here tthis is my new website. I will be writing things here t I will be writing things here that interest me.</p>
+</body>
+<footer>2022 &nbspNoah Lee</footer>
+<script>
+  //projects
+  function projectsClicked() {
+    projects.style.color = '#f2f3f4';
+    contact.style.color = '#e3e3b0';
+    eightyseconds.style.color = '#e3e3b0';
+    blog.style.color = '#e3e3b0'
+    window.location.href = 'projects.html';
+    var projectsClicked = true;
+  }
+  //contact
+  function contactClicked() {
+    projects.style.color =  '#e3e3b0';
+    contact.style.color = '#f2f3f4';
+    eightyseconds.style.color = '#e3e3b0';
+    blog.style.color = '#e3e3b0'
+    window.location.href = 'contact.html';
+    var contactClicked = true;
+  }
+  //80seconds
+  function eightySecondsClicked() {
+    projects.style.color =  '#e3e3b0';
+    contact.style.color = '#e3e3b0';
+    eightyseconds.style.color = '#f2f3f4';
+    blog.style.color = '#e3e3b0'
+    window.location.href = '80seconds.html';
+    var eightySecondsClicked = true;
+  }
+  //blog
+  function blogClicked() {
+    projects.style.color =  '#e3e3b0';
+    contact.style.color = '#e3e3b0';
+    eightyseconds.style.color = '#e3e3b0';
+    blog.style.color = '#f2f3f4'
+    window.location.href = 'blog.html';
+    var blogClicked = true;
+  }
+</script>
+<script src="script.js"></script>
+</html>
