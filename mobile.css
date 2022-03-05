@@ -19,7 +19,7 @@ body {
 .submenu {
   font-size: 19px;
   display: inline-block;
-  margin-right: 0px;
+  margin-right: -10px;
   text-align: center;
   position: relative;
   margin-left: 0px;
@@ -30,7 +30,7 @@ body {
   font-size: 19px;
   display: inline-block;
   text-align: center;
-  margin-right: 0px;
+  margin-right: -10px;
   margin-left: 0px;
   margin-top: 5px;
   position: relative;
