@@ -22,7 +22,7 @@ body {
   margin-right: -5px;
   text-align: center;
   position: relative;
-  margin-left: -8px;
+  margin-left: -12px;
   left: 8px;
   margin-top: 5px;
 }
@@ -31,9 +31,9 @@ body {
   font-size: 18px;
   display: inline-block;
   text-align: center;
-  margin-right: -10px;
-  margin-left: -20px;
-  left: 20px;
+  margin-right: -5px;
+  margin-left: -12px;
+  left: 12px;
   margin-top: 5px;
   position: relative;
   animation: fadeIn 0.8s;
@@ -49,7 +49,7 @@ body {
   font-family: Inter;
   margin-top: 21px;
   margin-bottom:43px;
-  margin-left: 0px;
+  margin-left: -10px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -64,7 +64,9 @@ body {
   margin-top: 40px;
   margin-bottom: 20px;
   padding-bottom: 0px;
-  margin-right: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100px;
   padding-top: 0px;
   padding-right: 0px;
   display: inline-block;
