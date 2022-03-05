@@ -94,7 +94,7 @@ body {
 #aroundtheworldtext {
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 17.8px;
+  font-size: 17.5px;
   text-decoration: underline;
   text-align: center;
   margin-top: 34px;
@@ -112,7 +112,7 @@ body {
   text-align: justify;
   letter-spacing: 0.5px;
   line-height: 1.6;
-  margin-top: 0px;
+  margin-top: 5px;
   display: inline-block;
   max-width: 383px;
   margin: auto;
