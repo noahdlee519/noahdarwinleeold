@@ -132,6 +132,7 @@ form {
 .title {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
+  font-family: Inter;
   display: block;
   position: relative;
   text-decoration: underline;
@@ -146,6 +147,7 @@ form {
 .post {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
+  font-family: Inter;
   display: block;
   position: relative;
   font-weight: normal;
