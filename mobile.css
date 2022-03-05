@@ -5,7 +5,7 @@ body {
   font-size: 20px;
 }
 
-button {
+#mainbutton {
   border: none;
   background-color: inherit;
   color: #e3e3b0;
@@ -14,6 +14,7 @@ button {
   cursor: pointer;
   display: inline-block;
   position: relative;
+  margin-left: -6px;
 
 }
 .submenu {
@@ -47,6 +48,7 @@ button {
   margin-top: 21px;
   margin-bottom:43px;
   margin-left: 0px;
+  left: 10px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -94,7 +96,8 @@ button {
   -webkit-animation: fadeIn 0.8s;
   text-align: center;
   margin: auto;
-  border-radius: 9px;"
+  border-radius: 9px;
+  left: 14px;
 }
 #aroundtheworldtext {
   color: #e3e3b0;
@@ -141,6 +144,7 @@ button {
   max-width: 600px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
+  left: 24px;
 }
 
 .post {
@@ -156,6 +160,7 @@ button {
   color: #e3e3b0;
   max-width: 600px;
   line-height: 1.7;
+  left: 24px;
 }
 
 /*footer*/
