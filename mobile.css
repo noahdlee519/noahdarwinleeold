@@ -104,7 +104,7 @@ body {
   font-family: Inter;
   font-size: 20.8px;
   text-decoration: underline;
-  text-align: center;
+  text-align: justify;
   margin-top: 14px;
   display: inline-block;
   margin: auto;
@@ -118,7 +118,7 @@ body {
   color: #e3e3b0;
   font-family: Inter;
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
   letter-spacing: 0.5px;
   line-height: 1.6;
   margin-top: -6px;
@@ -144,7 +144,7 @@ body {
   max-width: 600px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
-  left: 24px;
+  margin-left: 11px;
 }
 
 .post {
@@ -160,7 +160,7 @@ body {
   color: #e3e3b0;
   max-width: 600px;
   line-height: 1.7;
-  left: 24px;
+  margin-left: 11px;
 }
 
 /*footer*/
