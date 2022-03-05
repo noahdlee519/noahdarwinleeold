@@ -17,21 +17,21 @@ body {
 }
 
 .submenu {
-  font-size: 21px;
+  font-size: 19px;
   display: inline-block;
-  margin-right: 1px;
+  margin-right: 0px;
   text-align: center;
   position: relative;
-  margin-left: 17px;
+  margin-left: 0px;
   margin-top: 5px;
 }
 
 .indexsubmenu {
-  font-size: 21px;
+  font-size: 19px;
   display: inline-block;
   text-align: center;
-  margin-right: 1px;
-  margin-left: 17px;
+  margin-right: 0px;
+  margin-left: 0px;
   margin-top: 5px;
   position: relative;
   animation: fadeIn 0.8s;
@@ -98,6 +98,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 9px;
+  left: -10px;
 }
 #aroundtheworldtext {
   color: #e3e3b0;
