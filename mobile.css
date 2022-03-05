@@ -141,10 +141,9 @@ body {
   color: #e3e3b0;
   margin-top: 12px;
   margin-bottom: 5px;
-  max-width: 600px;
+  max-width: 400px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
-  margin-left: 11px;
 }
 
 .post {
@@ -158,9 +157,8 @@ body {
   margin-top: -8px;
   margin: auto;
   color: #e3e3b0;
-  max-width: 600px;
+  max-width: 400px;
   line-height: 1.7;
-  margin-left: 11px;
 }
 
 /*footer*/
