@@ -102,14 +102,13 @@ body {
 #aroundtheworldtext {
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 20.8px;
+  font-size: 20px;
   text-decoration: underline;
   text-align: justify;
   margin-top: 14px;
   display: inline-block;
   margin: auto;
   max-width: 400px;
-  font-weight: lighter;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -125,7 +124,6 @@ body {
   display: inline-block;
   max-width: 383px;
   margin: auto;
-  font-weight: lighter;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
