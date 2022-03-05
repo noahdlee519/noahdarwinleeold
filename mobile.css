@@ -14,13 +14,12 @@ body {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  margin-left: -6px;
-
 }
+
 .submenu {
   font-size: 21px;
   display: inline-block;
-  margin-right: 6px;
+  margin-right: 1px;
   text-align: center;
   position: relative;
   margin-left: 11px;
@@ -30,7 +29,8 @@ body {
 .indexsubmenu {
   font-size: 21px;
   display: inline-block;
-  margin-right: 6px;
+  text-align: center;
+  margin-right: 1px;
   margin-left: 11px;
   margin-top: 5px;
   position: relative;
@@ -67,9 +67,9 @@ body {
   margin-bottom: 20px;
   padding-bottom: 51px;
   margin-left: -15px;
-  margin-right: 50px;
+  margin-right: 10px;
   padding: 0px;
-  display: inline-block;
+  display: inline;
   text-align: center;
   text-decoration: none;
   color: #e3e3b0;
@@ -95,9 +95,9 @@ body {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
   text-align: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 9px;
-  left: 14px;
 }
 #aroundtheworldtext {
   color: #e3e3b0;
@@ -154,7 +154,7 @@ body {
   position: relative;
   font-weight: normal;
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
   margin-top: -8px;
   margin: auto;
   color: #e3e3b0;
