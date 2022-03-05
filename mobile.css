@@ -23,6 +23,7 @@ body {
   text-align: center;
   position: relative;
   margin-left: 0px;
+  left: 5px;
   margin-top: 5px;
 }
 
@@ -33,6 +34,7 @@ body {
   margin-right: -10px;
   margin-left: 0px;
   margin-top: 5px;
+  left: 5px;
   position: relative;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
@@ -58,8 +60,6 @@ body {
 }
 /*contact*/
 .fa {
-  font-family: Inter;
-  font-size: px;
   width: 15px;
   height: 15px;
   margin-top: 40px;
@@ -67,7 +67,7 @@ body {
   padding-bottom: 51px;
   margin-left: -0px;
   margin-right: -10px;
-  padding: 0px;
+  padding-top: 20px;
   display: inline;
   text-align: center;
   text-decoration: none;
