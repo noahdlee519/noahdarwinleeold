@@ -15,7 +15,7 @@ body {
   display: inline-block;
   position: relative;
   min-width: 110% !important;
-  left: -10% !important;
+  left: -5% !important;
 }
 
 .submenu {
@@ -60,7 +60,8 @@ body {
 /*contact*/
 .fa {
   margin-top: 40px;
-  transform: scale(.5);
+  transform: scale(.9);
+  word-spacing: -100px;
   margin-bottom: 20px;
   padding-bottom: 0px;
   margin-right: -45px;
@@ -99,11 +100,10 @@ body {
   text-decoration: underline;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   display: inline-block;
   margin: auto;
   min-width: 80% !important;
-  max-width: 80%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -189,6 +189,7 @@ footer {
   text-align: center;
   min-width: 100% !important;
   max-width: 100%;
+  left: -10%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
