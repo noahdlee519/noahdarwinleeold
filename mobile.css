@@ -141,6 +141,12 @@ form {
 
 select {
   margin-top: 8px;
+  border: none;
+  background-color: inherit;
+  color: #e3e3b0;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
 }
 
 .title {
