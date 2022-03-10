@@ -99,7 +99,8 @@ body {
   font-size: 21px;
   text-decoration: underline;
   text-align: center;
-  margin-top: 34px;
+  margin-top: 20px;
+  margin-bottom: 5px;
   display: inline-block;
   margin: auto;
   min-width: 100% !important;
