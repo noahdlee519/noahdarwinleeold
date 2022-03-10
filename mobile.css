@@ -10,7 +10,7 @@ body {
   background-color: inherit;
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 30px;
+  font-size: 32px;
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -18,7 +18,7 @@ body {
 }
 
 .submenu {
-  font-size: 17px;
+  font-size: 21px;
   display: inline-block;
   margin-right: -15px;
   text-align: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .indexsubmenu {
-  font-size: 17px;
+  font-size: 21px;
   display: inline-block;
   text-align: center;
   margin-right: -15px;
@@ -61,10 +61,10 @@ body {
   width: 10px;
   height: 10px;
   margin-top: 40px;
-  transform: scale(.9);
+  transform: scale(.7);
   margin-bottom: 20px;
   padding-bottom: 0px;
-  margin-right: -20px;
+  margin-right: -25px;
   margin-left: auto;
   max-width: 100px;
   padding-top: 0px;
@@ -96,7 +96,7 @@ body {
 #aroundtheworldtext {
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 17px;
+  font-size: 21px;
   text-decoration: underline;
   text-align: center;
   margin-top: 34px;
@@ -115,7 +115,7 @@ body {
   text-align: justify;
   letter-spacing: 0.5px;
   line-height: 1.6;
-  margin-top: 15px;
+  margin-top: 20px;
   display: inline-block;
   min-width: 100% !important;
   max-width: 100%;
@@ -154,7 +154,7 @@ select {
   padding-left: auto;
   padding-right: auto;
   color: #e3e3b0;
-  margin-top: 4px;
+  margin-top: -30px;
   margin-bottom: 5px;
   min-width: 100% !important;
   max-width: 100%;
@@ -188,6 +188,8 @@ footer {
   text-align: center;
   padding-left: auto;
   padding-right: auto;
+  min-width: 100% !important;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   animation: fadeIn 0.8s;
