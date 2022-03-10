@@ -96,13 +96,13 @@ body {
 #aroundtheworldtext {
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 21px;
+  font-size: 17px;
   text-decoration: underline;
   text-align: center;
   margin-top: 34px;
   display: inline-block;
   margin: auto;
-  max-width: 412px;
+  min-width: 412px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
