@@ -62,8 +62,8 @@ body {
   margin-top: 40px;
   transform: scale(1);
   word-spacing: -100px;
-  margin-right: -100px !important;
-  padding-right: -100px !important;
+  margin-right: -50px !important;
+  padding-right: -50px !important;
   letter-spacing: -100px;
   margin-bottom: 20px;
   padding-bottom: 0px;
@@ -72,7 +72,7 @@ body {
   text-decoration: none;
   color: #e3e3b0;
   min-width: 110% !important;
-  left: -5% !important;
+  left: -25% !important;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -103,7 +103,7 @@ body {
   margin-bottom: 0px;
   display: inline-block;
   margin: auto;
-  min-width: 60% !important;
+  max-width: 70% !important;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -195,7 +195,7 @@ footer {
   text-align: center;
   min-width: 170% !important;
   max-width: 100%;
-  left: -70%;
+  left: -65%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
