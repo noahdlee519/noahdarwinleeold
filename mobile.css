@@ -42,6 +42,7 @@ body {
 /*projects*/
 .projectul {
   display: block;
+  left: -3px;
   text-align: left;
   font-weight: normal;
   color: #e3e3b0;
@@ -64,7 +65,7 @@ body {
   letter-spacing: -100px;
   margin-bottom: 20px;
   padding-bottom: 0px;
-  display: block;
+  display: inline;
   text-align: center;
   text-decoration: none;
   color: #e3e3b0;
@@ -98,7 +99,7 @@ body {
   margin-bottom: 0px;
   display: inline-block;
   margin: auto;
-  min-width: 70% !important;
+  min-width: 60% !important;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -188,7 +189,7 @@ footer {
   font-size: 12px;
   position: fixed;
   text-align: center;
-  min-width: 200% !important;
+  min-width: 170% !important;
   max-width: 100%;
   left: -90%;
   animation: fadeIn 0.8s;
