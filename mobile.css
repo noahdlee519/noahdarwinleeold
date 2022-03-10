@@ -14,7 +14,7 @@ body {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  min-width: 400px!;
+  min-width: 500px!;
 }
 
 .submenu {
@@ -24,6 +24,7 @@ body {
   text-align: center;
   position: relative;
   margin-top: 5px;
+  min-width: 500px!;
 }
 
 .indexsubmenu {
@@ -33,6 +34,7 @@ body {
   margin-right: -15px;
   margin-top: 5px;
   position: relative;
+  min-width: 500px!;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
