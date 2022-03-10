@@ -136,6 +136,10 @@ form {
   -webkit-animation: fadeIn 0.8s;
 }
 
+select {
+  margin-top: 8px;
+}
+
 .title {
   display: inline-block;
   position: relative;
@@ -148,7 +152,7 @@ form {
   padding-left: auto;
   padding-right: auto;
   color: #e3e3b0;
-  margin-top: 12px;
+  margin-top: 4px;
   margin-bottom: 5px;
   max-width: 412px;
   animation: fadeIn 0.8s;
@@ -164,7 +168,7 @@ form {
   font-weight: normal;
   font-size: 16px;
   text-align: justify;
-  margin-top: -8px;
+  margin-top: -16px;
   margin: auto;
   color: #e3e3b0;
   max-width: 412px
