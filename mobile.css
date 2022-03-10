@@ -62,8 +62,8 @@ body {
   margin-top: 40px;
   transform: scale(1);
   word-spacing: -100px;
-  margin-right: -50px !important;
-  padding-right: -50px !important;
+  margin-right: 0px !important;
+  padding-right: 0px !important;
   letter-spacing: -100px;
   margin-bottom: 20px;
   padding-bottom: 0px;
@@ -71,8 +71,8 @@ body {
   text-align: center;
   text-decoration: none;
   color: #e3e3b0;
-  min-width: 110% !important;
-  left: -25% !important;
+  min-width: 130% !important;
+  left: -65% !important;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -96,14 +96,13 @@ body {
 #aroundtheworldtext {
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 20.9px;
+  font-size: 21px;
   text-decoration: underline;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
   display: inline-block;
   margin: auto;
-  max-width: 70% !important;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -159,6 +158,7 @@ select {
   margin-left: auto;
   margin-right: auto;
   padding-left: auto;
+  left: 1px;
   padding-right: auto;
   color: #e3e3b0;
   margin-top: -30px;
@@ -193,9 +193,9 @@ footer {
   font-size: 12px;
   position: fixed;
   text-align: center;
-  min-width: 170% !important;
+  min-width: 150% !important;
   max-width: 100%;
-  left: -65%;
+  left: -56%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
