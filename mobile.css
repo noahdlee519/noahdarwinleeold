@@ -10,7 +10,7 @@ body {
   background-color: inherit;
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 35px;
+  font-size: 32px;
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -23,7 +23,7 @@ body {
   text-align: center;
   position: relative;
   margin-left: -12px;
-  left: 8px;
+  left: 5px;
   margin-top: 5px;
 }
 
@@ -33,7 +33,7 @@ body {
   text-align: center;
   margin-right: -5px;
   margin-left: -12px;
-  left: 12px;
+  left: 5px;
   margin-top: 5px;
   position: relative;
   animation: fadeIn 0.8s;
@@ -49,7 +49,7 @@ body {
   font-family: Inter;
   margin-top: 21px;
   margin-bottom:43px;
-  margin-left: -10px;
+  left: 5px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -62,9 +62,10 @@ body {
   width: 10px;
   height: 10px;
   margin-top: 40px;
+  transform: scale(.9);
   margin-bottom: 20px;
   padding-bottom: 0px;
-  margin-right: auto;
+  margin-right: -20px;
   margin-left: auto;
   max-width: 100px;
   padding-top: 0px;
