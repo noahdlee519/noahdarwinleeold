@@ -86,7 +86,7 @@ button {
   margin-left: 3px;
   margin-top: -11px;
   display: inline-block;
-  max-width: 399px;
+  max-width: 382px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -105,7 +105,7 @@ button {
   margin-left: 10px;
   margin-top: 5px;
   display: inline-block;
-  max-width: 383px;
+  max-width: 382px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
