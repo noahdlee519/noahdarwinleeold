@@ -59,16 +59,12 @@ body {
 /*contact*/
 .fa {
   margin-top: 40px;
-  transform: scale(.9);
+  transform: scale(1);
   word-spacing: -100px;
+  letter-spacing: -100px;
   margin-bottom: 20px;
   padding-bottom: 0px;
-  margin-right: -45px;
-  margin-left: auto;
-  max-width: 60px;
-  padding-top: 0px;
-  padding-right: -40px;
-  display: inline-block;
+  display: block;
   text-align: center;
   text-decoration: none;
   color: #e3e3b0;
