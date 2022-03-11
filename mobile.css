@@ -43,7 +43,9 @@ body {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
+
 /*projects*/
+
 .projectul {
   display: block;
   left: -4px;
@@ -61,7 +63,9 @@ body {
   0% {opacity:0;}
   100% {opacity:1;}
 }
+
 /*contact*/
+
 .fa {
   margin-top: 40px;
   transform: scale(0.5);
@@ -85,7 +89,9 @@ body {
 .fa:hover {
   color: #f2f3f4;
 }
+
 /*80s*/
+
   .tiktok-embed {
   max-width: 380px;
   min-width: 258px;
@@ -129,7 +135,9 @@ body {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
+
 /*blog*/
+
 form {
   margin-left: auto;
   margin-right: auto;
@@ -152,6 +160,7 @@ select {
   cursor: pointer;
   display: inline-block;
   position: relative;
+  font-size: 12px;
 }
 
 .title {
@@ -190,6 +199,7 @@ select {
 }
 
 /*footer*/
+
 footer {
   color: #e3e3b0;
   background-color: #e68019;
