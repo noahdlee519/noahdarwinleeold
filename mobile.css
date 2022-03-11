@@ -14,8 +14,8 @@ body {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  min-width: 110% !important;
-  left: -5% !important;
+  min-width: 100%;
+  white-space: nowrap;
 }
 
 .submenu {
@@ -72,6 +72,7 @@ body {
   text-decoration: none;
   color: #e3e3b0;
   min-width: 130% !important;
+  white-space: nowrap;
   left: -65% !important;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
@@ -96,7 +97,7 @@ body {
 #aroundtheworldtext {
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 21px;
+  font-size: 17px;
   text-decoration: underline;
   text-align: center;
   margin-top: 20px;
