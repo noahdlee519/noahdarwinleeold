@@ -11,7 +11,7 @@ body {
   text-align: center;
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 35px;
   cursor: pointer;
   display: inline-block;
   left: -8px;
@@ -48,7 +48,7 @@ body {
 
 .projectul {
   display: block;
-  left: -4px;
+  left: -20px;
   text-align: left;
   font-weight: normal;
   color: #e3e3b0;
@@ -74,7 +74,7 @@ body {
   margin-top: 25px;
   margin-bottom: 20px;
   padding-bottom: 51px;
-  margin-left: -3px;
+  margin-left: -30px;
   margin-right: 49px;
   padding: 0px;
   display: inline-block;
