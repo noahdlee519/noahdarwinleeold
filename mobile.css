@@ -11,10 +11,10 @@ body {
   text-align: center;
   color: #e3e3b0;
   font-family: Inter;
-  font-size: 35px;
+  font-size: 37px;
   cursor: pointer;
   display: inline-block;
-  left: -8px;
+  left: -28px;
   position: relative;
   min-width: 100%;
   white-space: nowrap;
@@ -48,7 +48,7 @@ body {
 
 .projectul {
   display: block;
-  left: -20px;
+  left: -25px;
   text-align: left;
   font-weight: normal;
   color: #e3e3b0;
@@ -71,11 +71,11 @@ body {
   padding-bottom: 20px;
   width: 50px;
   height: 15px;
-  margin-top: 25px;
+  margin-top: 28px;
   margin-bottom: 20px;
   padding-bottom: 51px;
-  margin-left: -30px;
-  margin-right: 49px;
+  margin-left: 0px;
+  margin-right: 29px;
   padding: 0px;
   display: inline-block;
   text-align: center;
