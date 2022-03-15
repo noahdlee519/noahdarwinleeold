@@ -185,13 +185,13 @@ div.dropdown {
 footer {
   color: #e3e3b0;
   background-color: #e68019;
-  display: inline;
+  display: block;
   font-family: Inter;
   font-size: 12px;
   position: fixed;
   text-align: left;
   padding-top: -5px;
-  width: device-width;
+  width: 100%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
