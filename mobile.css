@@ -161,8 +161,9 @@ div.dropdown {
   font-weight: normal;
   text-align: left;
   color: #e3e3b0;
-  top: 30%;
-  margin-bottom: 3px;
+  top: 40%;
+  right: 20%;
+  margin: 0px, 0px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
