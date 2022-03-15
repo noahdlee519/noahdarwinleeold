@@ -155,7 +155,6 @@ div.dropdown {
 .dropdown:hover {
 
 .title {
-  display: inline-block;
   position: absolute;
   text-decoration: underline;
   font-size: 21px;
@@ -171,7 +170,6 @@ div.dropdown {
 .post {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
-  display: inline-block;
   position: relative;
   font-weight: normal;
   font-size: 16px;
