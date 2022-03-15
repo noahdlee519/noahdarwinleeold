@@ -1,9 +1,13 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   background: #e68019;
   font-family: Inter;
   font-size: 20px;
   width: device-width;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 #mainbutton {
