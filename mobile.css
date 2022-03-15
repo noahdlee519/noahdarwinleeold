@@ -1,9 +1,9 @@
 body {
   background: #e68019;
-  padding: 25px;
   font-family: Inter;
   font-size: 20px;
   width: device-width;
+  overflow-x:hidden;
 }
 
 #mainbutton {
@@ -25,7 +25,6 @@ body {
   font-size: 21px;
   text-size-adjust: auto;
   display: inline-block;
-  margin-right: -15px;
   text-align: center;
   position: relative;
   margin-top: 5px;
@@ -36,7 +35,6 @@ body {
   text-size-adjust: auto;
   display: inline-block;
   text-align: center;
-  margin-right: -15px;
   margin-top: 5px;
   position: relative;
   animation: fadeIn 0.8s;
@@ -47,14 +45,13 @@ body {
 
 .projectul {
   display: block;
-  left: -25px;
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   color: #e3e3b0;
   font-size: 32px;
   font-family: Inter;
   margin-top: 21px;
-  margin-bottom:43px;
+  margin-bottom: 43px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -159,10 +156,6 @@ div.dropdown {
   font-size: 21px;
   font-weight: normal;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
   color: #e3e3b0;
   margin-top: -30px;
   margin-bottom: 3px;
