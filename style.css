@@ -108,26 +108,50 @@ button {
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
+
 /*blog*/
-form {
+
+#dummy {
+  height: 4px;
+}
+
+.blognav {
+  padding-top: 0px;
+}
+
+.sticky {
+  position: fixed;
+  top: 20px;
+}
+
+label {
   margin-left: 8px;
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 0px;
   color: #e3e3b0;
   text-decoration: underline;
+  position: static;
   font-size: 21px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
 
-select {
-  margin-top: 8px;
-  border: none;
-  background-color: inherit;
+div.dropdown {
+  font-size: 15px;
+  margin-top: 5px;
+  display: block;
+  text-align: left;
+  left: 8.8px;
   color: #e3e3b0;
+  font-family: Inter;
   cursor: pointer;
-  display: inline-block;
   position: relative;
+  animation: fadeIn 0.8s;
+  -webkit-animation: fadeIn 0.8s;
+}
+
+.dropdown:hover {
+  color: #f2f3f4;
 }
 
 .title {
@@ -138,11 +162,12 @@ select {
   position: relative;
   text-decoration: underline;
   font-size: 21px;
+  margin-bottom: 20px;
   font-weight: normal;
   word-spacing: 2px;
   margin-left: 335px;
   color: #e3e3b0;
-  margin-top: -72px;
+  margin-top: -77px;
 }
 
 .post {
@@ -155,6 +180,7 @@ select {
   font-size: 15px;
   margin-left: 335px;
   margin-top: -40px;
+  margin-bottom: 24px;
   color: #e3e3b0;
   max-width: 550px;
   line-height: 1.7;
@@ -171,8 +197,8 @@ footer {
   left: 42px;
   bottom: 0px;
   height: 30px;
-  width: 100%;
-  padding-top: 12px;
+  width: 35%;
+  padding-top: 5px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
