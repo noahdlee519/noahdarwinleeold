@@ -197,7 +197,9 @@ footer {
   left: 42px;
   bottom: 0px;
   height: 30px;
-  max-width: 25%;
+  min-width: 10%;
+  width: 15%;
+  max-width: 20%;
   padding-top: 5px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
