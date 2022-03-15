@@ -10,6 +10,7 @@ body {
   border: none;
   background-color: inherit;
   text-align: center;
+  text-size-adjust: auto;
   color: #e3e3b0;
   font-family: Inter;
   font-size: 37px;
@@ -22,21 +23,21 @@ body {
 
 .submenu {
   font-size: 21px;
+  text-size-adjust: auto;
   display: inline-block;
   margin-right: -15px;
   text-align: center;
   position: relative;
-  left: -8px;
   margin-top: 5px;
 }
 
 .indexsubmenu {
   font-size: 21px;
+  text-size-adjust: auto;
   display: inline-block;
   text-align: center;
   margin-right: -15px;
   margin-top: 5px;
-  left: -8px;
   position: relative;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
@@ -133,47 +134,23 @@ body {
 /*blog*/
 
 #dummy {
-  height: 4px;
 }
 
 .blognav {
-  padding-top: 0px;
 }
 
 .sticky {
-  position: fixed;
-  top: 20px;
 }
 
 label {
-  margin-left: 8px;
-  display: inline-block;
-  margin-top: 0px;
-  color: #e3e3b0;
-  text-decoration: underline;
-  position: static;
-  font-size: 21px;
-  animation: fadeIn 0.8s;
-  -webkit-animation: fadeIn 0.8s;
+  display: none;
 }
 
 div.dropdown {
-  font-size: 15px;
-  margin-top: 5px;
-  display: block;
-  text-align: left;
-  left: 8.8px;
-  color: #e3e3b0;
-  font-family: Inter;
-  cursor: pointer;
-  position: relative;
-  animation: fadeIn 0.8s;
-  -webkit-animation: fadeIn 0.8s;
+  display: none;
 }
 
 .dropdown:hover {
-  color: #f2f3f4;
-}
 
 .title {
   display: inline-block;
@@ -216,9 +193,9 @@ footer {
   font-family: Inter;
   font-size: 12px;
   position: fixed;
-  text-align: center;
+  text-align: left;
   padding-top: -5px;
-  left: -26%;
+  width: device-width;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
