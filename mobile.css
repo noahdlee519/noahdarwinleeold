@@ -3,6 +3,7 @@ body {
   padding: 25px;
   font-family: Inter;
   font-size: 20px;
+  width: device-width;
 }
 
 #mainbutton {
@@ -16,7 +17,6 @@ body {
   display: inline-block;
   left: -28px;
   position: relative;
-  min-width: 100%;
   white-space: nowrap;
 }
 
@@ -28,7 +28,6 @@ body {
   position: relative;
   left: -8px;
   margin-top: 5px;
-  min-width: 100% !important;
 }
 
 .indexsubmenu {
@@ -39,7 +38,6 @@ body {
   margin-top: 5px;
   left: -8px;
   position: relative;
-  min-width: 100% !important;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -126,8 +124,6 @@ body {
   line-height: 1.6;
   margin-top: 18px;
   display: inline-block;
-  min-width: 100% !important;
-  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   animation: fadeIn 0.8s;
@@ -136,29 +132,47 @@ body {
 
 /*blog*/
 
-form {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+#dummy {
+  height: 4px;
+}
+
+.blognav {
+  padding-top: 0px;
+}
+
+.sticky {
+  position: fixed;
+  top: 20px;
+}
+
+label {
+  margin-left: 8px;
   display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 60px;
+  margin-top: 0px;
   color: #e3e3b0;
   text-decoration: underline;
+  position: static;
   font-size: 21px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
 
-select {
-  margin-top: 8px;
-  border: none;
-  background-color: inherit;
+div.dropdown {
+  font-size: 15px;
+  margin-top: 5px;
+  display: block;
+  text-align: left;
+  left: 8.8px;
   color: #e3e3b0;
+  font-family: Inter;
   cursor: pointer;
-  display: inline-block;
   position: relative;
-  font-size: 12px;
+  animation: fadeIn 0.8s;
+  -webkit-animation: fadeIn 0.8s;
+}
+
+.dropdown:hover {
+  color: #f2f3f4;
 }
 
 .title {
@@ -175,8 +189,6 @@ select {
   color: #e3e3b0;
   margin-top: -30px;
   margin-bottom: 3px;
-  min-width: 100% !important;
-  max-width: 100%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -192,7 +204,6 @@ select {
   margin-top: -16px;
   margin: auto;
   color: #e3e3b0;
-  max-width: 412px
   line-height: 1.7;
 }
 
@@ -207,8 +218,6 @@ footer {
   position: fixed;
   text-align: center;
   padding-top: -5px;
-  min-width: 100% !important;
-  max-width: 100%;
   left: -26%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
