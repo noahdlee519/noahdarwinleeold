@@ -20,7 +20,7 @@ body {
   font-size: 37px;
   cursor: pointer;
   display: inline-block;
-  left: -28px;
+  left: -10%;
   position: relative;
   white-space: nowrap;
 }
@@ -49,7 +49,7 @@ body {
 
 .projectul {
   display: block;
-  text-align: center;
+  text-align: left;
   font-weight: normal;
   color: #e3e3b0;
   font-size: 32px;
@@ -74,8 +74,7 @@ body {
   margin-top: 28px;
   margin-bottom: 20px;
   padding-bottom: 51px;
-  margin-left: 0px;
-  margin-right: 29px;
+  margin-left: 5%;
   padding: 0px;
   display: inline-block;
   text-align: center;
@@ -159,9 +158,9 @@ div.dropdown {
   text-decoration: underline;
   font-size: 21px;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
   color: #e3e3b0;
-  margin-top: -30px;
+  top: 30%;
   margin-bottom: 3px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
