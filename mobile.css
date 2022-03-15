@@ -32,6 +32,7 @@ body {
   text-align: left;
   position: relative;
   margin-top: 5px;
+  margin-left: -10%;
 }
 
 .indexsubmenu {
@@ -40,6 +41,7 @@ body {
   display: inline;
   text-align: left;
   margin-top: 5px;
+  margin-left: -10%;
   position: relative;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
@@ -157,13 +159,11 @@ div.dropdown {
 .title {
   position: absolute;
   text-decoration: underline;
+  display: inline-block;
   font-size: 21px;
   font-weight: normal;
   text-align: left;
   color: #e3e3b0;
-  top: 40%;
-  right: 20%;
-  margin: 0px, 0px;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
@@ -186,12 +186,14 @@ div.dropdown {
 footer {
   color: #e3e3b0;
   background-color: #e68019;
-  display: block;
+  display: inline-block;
   font-family: Inter;
   font-size: 12px;
   position: fixed;
   text-align: left;
   padding-top: -5px;
+  min-width: 10%;
+  max-width: 100%;
   width: 100%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
