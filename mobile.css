@@ -206,9 +206,10 @@ footer {
   font-size: 12px;
   position: fixed;
   text-align: center;
-  min-width: 150% !important;
+  padding-top: -5px;
+  min-width: 100% !important;
   max-width: 100%;
-  left: -56%;
+  left: -26%;
   animation: fadeIn 0.8s;
   -webkit-animation: fadeIn 0.8s;
 }
