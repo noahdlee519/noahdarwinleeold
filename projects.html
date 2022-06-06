@@ -5,7 +5,7 @@
   <title>Noah Darwin Lee</title>
    <meta name="viewport" content="width=device-width,initial-scale=1" >
   <link href='style.css' rel='stylesheet'>
-  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" />
+  <!--<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" />-->
   <link rel="shortcut icon" href="https://live.staticflickr.com/65535/51930067110_ca641e2c48.jpg">
 </head>
 <style>
@@ -32,9 +32,31 @@ $(document).ready(function(){
 $(".projectul").fadeIn();
 });
 </script>
-<button class="projectul" onclick="eightySecondsClicked()">80 SECONDS</button>
-<button class="projectul" onclick="window.open('https://dialectdict.com/')">DIALECTDICT</button>
-<button class="projectul" onclick="window.open('https://www.instagram.com/noahmakestheart/')">DESIGN</button>
+<!-- project list -->
+<div id='megaprojects'>
+<div id='project1' class='allprojects'>
+  <button class="projectul" onclick="eightySecondsClicked()">80 SECONDS</button>
+  <p>— upcoming medium.com blog on weird and fascinating places</p>
+</div>
+<div id='project2' class='allprojects'>
+  <button class="projectul" onclick="window.open('https://dialectdict.com/')">DIALECTDICT</button>
+  <p>— internet's only crowdsourced fuzhounese + english dictionary</p>
+</div>
+<div id='project3' class='allprojects'>
+  <button class="projectul" onclick="window.open('https://www.instagram.com/noahmakestheart/')">DESIGN</button>
+  <p>— the instagram page for my art, architecture, and design stuff</p>
+</div>
+<div id='project4' class='allprojects'>
+  <button class="projectul" onclick="window.open('https://Souvenhere.noahdlee519.repl.co')">SOUVENHERE</button>
+  <p>— user-friendly list of souvenir websites from around the world</p>
+</div>
+<div id='project5' class='allprojects'>
+  <button class="projectul" onclick="window.open('https://tnosupereventsmaker.noahdlee519.repl.co')">TNO EVENT MAKER</button>
+  <p>— alpha version of tno events and government interface maker</p>
+</div>
+</div>
+  <br>
+
 </body>
 <footer>2022 &nbspNoah Lee</footer>
 <script>

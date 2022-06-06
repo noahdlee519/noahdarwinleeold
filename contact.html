@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width,initial-scale=1" >
   <link href='style.css' rel='stylesheet'>
   <script src="https://kit.fontawesome.com/e15c971138.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" />
+  <!--<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" />-->
   <link rel="shortcut icon" href="https://live.staticflickr.com/65535/51930067110_ca641e2c48.jpg">
 </head>
 <style>
@@ -26,11 +26,18 @@ color: #f2f3f4;
     color: #f2f3f4;
   }
 </style>
-<br>
-<button><a href="#" class="fa fa-instagram" onclick="window.open('https://www.instagram.com/noahdarwinlee/')"></a></button>
-<button><a href="#" class="fa fa-facebook" onclick="window.open('https://www.facebook.com/BuoyoNYC/')"></a></button>
-<button><a href="#" class="fa fa-linkedin" onclick="window.open('https://www.linkedin.com/in/noah-lee-9a9401169/')"></a></button>
-<button><a href="mailto:noahdlee519@gmail.com" class="fa fa-google" ></a></button>
+  <div class= fa>
+<button title='Instagram'><a href="#" class="fa fa-instagram" onclick="window.open('https://www.instagram.com/noahdarwinlee/')"></a></button>
+<button title='Facebook'><a href="#" class="fa fa-facebook" onclick="window.open('https://www.facebook.com/BuoyoNYC/')"></a></button>
+<button title='Linkedin'><a href="#" class="fa fa-linkedin" onclick="window.open('https://www.linkedin.com/in/noah-lee-9a9401169/')"></a></button>
+<button title='Email'><a href="mailto:noahdlee519@gmail.com" class="fa fa-envelope" ></a></button>
+  </div>
+<ul class='contactul'>
+  <li class='contactul' id='instatext'>instagram</li>
+  <li class='contactul' id='fbtext'>facebook</li>
+  <li class='contactul' id='linkedintext'>linkedin</li>
+  <li class='contactul' id='gmailtext'>email</li>
+</ul>
 </body>
 <footer>2022 &nbspNoah Lee</footer>
 <script>
